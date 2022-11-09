@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdqwalls.com%2Fwallpapers%2Favatar-the-last-airbender-an.jpg&f=1&nofb=1&ipt=45268040aa05d1885082b408376ed899583dd21d85fb10a87dbe6388e4bd07ef&ipo=images);
+    background-size: cover;
+    margin: 0;
+}
+
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    border: solid black 5px;
+    height: 60vh;
+    width: 100vw;
+}
+
+.top-left {
+    background-color: brown;
+    border: solid black 5px;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+}
+
+.top-right {
+    background-color: brown;
+    border: solid black 5px;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: none;
+    border: solid black 5px;
+    height: 35vh;
+    width: 100vw;
+}
+
+.bottom-box {
+    border: solid black 1px;
+    width: 30vw;
+}
+
+#start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
