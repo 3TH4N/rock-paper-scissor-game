@@ -1,59 +1,78 @@
-body {
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdqwalls.com%2Fwallpapers%2Favatar-the-last-airbender-an.jpg&f=1&nofb=1&ipt=45268040aa05d1885082b408376ed899583dd21d85fb10a87dbe6388e4bd07ef&ipo=images);
-    background-size: cover;
-    margin: 0;
-}
-
-.conatiner {
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpavbca.com%2Fwalldb%2Foriginal%2Fc%2F2%2Fe%2F649879.jpg&f=1&nofb=1&ipt=aa6a23ee560576ea8acaab4bf341f4750197c4d3ea846ba9d3b4a97410e97db4&ipo=images);
+      background-size: contain;
+  }
+  
+  .container {
+    background: ;
+    height: 100%;
+    width: 100%;
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .box-one {
+    height: 100%;
+    width: 100%;
+    background-color: brown;
     display: flex;
     flex-direction: column;
+  }
+  
+  .picsize-one {
     height: 100%;
     width: 100%;
-}
-
-.top-row {
-    display: flex;
-    flex-direction: row;
-    background-color: none;
-    border: solid black 5px;
-    height: 60vh;
-    width: 100vw;
-}
-
-.top-left {
-    background-color: brown;
-    border: solid black 5px;
+  }
+  
+  .picsize-two {
     height: 100%;
     width: 100%;
-    opacity: .5;
-}
-
-.top-right {
-    background-color: brown;
-    border: solid black 5px;
+  }
+  
+  .picsize-three {
     height: 100%;
     width: 100%;
-    opacity: .5;
-}
-
-.bottom-row {
+  }
+  
+  .box-two {
+    height: 100%;
+    width: 100%;
+    background-color: ;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: none;
-    border: solid black 5px;
-    height: 35vh;
-    width: 100vw;
-}
-
-.bottom-box {
-    border: solid black 1px;
-    width: 30vw;
-}
-
-#start-button {
+    flex-direction: column;
+  }
+  
+  .middle-t {
+    height: 100%;
+    width: 100%;
+  }
+  
+  p {
+    position: relative;
+    color: black;
+    font-size: 30px;
+  }
+  
+  .middle-m {
+    height: 100%;
+    width: 100%;
+    background-color: darkkhaki;
+  }
+  
+  .middle-b {
+    height: 100%;
+    width: 100%;
+    background-color: sienna;
+  }
+  
+  .box-three {
+    height: 100%;
+    width: 100%;
+    background-color: darkorchid;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+    flex-direction: column;
+  }
