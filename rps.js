@@ -12,7 +12,7 @@ const bulbasaurDiv = document.getElementById("bulbasaur")
 
 function main() {
     squirtleDiv.addEventListener('click', function(){
-
+        
     })
 
     chimcharDiv.addEventListener('click', function(){
